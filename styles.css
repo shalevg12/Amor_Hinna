@@ -76,7 +76,7 @@ nav {
   display: none;
 }
 
-/* .nav__links {
+.nav__links {
   list-style: none;
   position: absolute;
   right: 1rem;
@@ -91,9 +91,9 @@ nav {
   background-color: #ebcfa6;
   border-radius: 1rem;
   display: none;
-} */
+}
 
-/* .nav__links.open {
+.nav__links.open {
   display: flex;
 }
 
@@ -102,7 +102,7 @@ nav {
   font-weight: 500;
   color: var(--text-dark);
 }
- */
+
 .nav__links a:hover {
   color: var(--white);
 }
@@ -119,6 +119,7 @@ nav {
 .header__container {
   display: grid;
 }
+
 
 .header__image {
   position: relative;
@@ -137,7 +138,7 @@ nav {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: none;
+  background-color: var(--primary-color);
   z-index: 1;
   animation: scroll-right 0.5s 0.3s linear forwards;
 }
